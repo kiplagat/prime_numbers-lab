@@ -1,4 +1,4 @@
-def primeNumbers(n):
+def prime_numbers(n):
 	prime_numbers = []
 	if n < 1:
 		return []
