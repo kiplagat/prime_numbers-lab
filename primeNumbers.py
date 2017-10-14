@@ -1,5 +1,5 @@
-def prime_numbers(n):
-	prime_numbers = []
+def primeNumbers(n):
+	primeNumbers = []
 	if n < 1:
 		return []
 	if isinstance(n, list):
@@ -12,5 +12,5 @@ def prime_numbers(n):
 				if(x%i) == 0:
 					break
 			else:
-				prime_numbers.append(x)
-	return prime_numbers
+				primeNumbers.append(x)
+	return primeNumbers
